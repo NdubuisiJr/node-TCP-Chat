@@ -1,5 +1,11 @@
 /**
  *  The TCP Chat Client Implementation
+ * 
+ *     Dependency
+ *  The node net api
+ * 
+ *      comment
+ *  This is a simple CLI application that connects to the server
  */
 
 const net = require('net');
