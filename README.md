@@ -1,5 +1,6 @@
 # Node-TCP-Chat
 Implementation of a Chart server and Client using pure Node TCP API. No Packages.json, No NPM, Just Node!
+A project to practice in depth understanding of Node's networking abilities. The reason Node is Node! 😄
 
 ## Server Side
 The server implementation is a simple tcp server designed to send messages from one user to other users. In order for a client to be considered as a user, the client has to enter (send) their nickname to the server. The server then tracks that client's connection and subsequently sends messages to it and also allow it to send messages to others.
