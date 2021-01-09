@@ -58,7 +58,7 @@ const server = net.createServer( socket =>{
             }else{
                 for (const key in users) {
                     if(key != nickName)
-                        users[key].write(`${nickName}: ${inpuData}`+'\n\r');
+                        users[key].write('\033[93m'+`${nickName}`+'\033[39m'+`: ${inpuData}`+'\n\r');
                 }
             }
             inpuData='';
